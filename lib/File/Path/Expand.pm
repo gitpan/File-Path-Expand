@@ -6,7 +6,7 @@ use Exporter;
 use base 'Exporter';
 use vars qw( $VERSION @EXPORT @EXPORT_OK );
 
-$VERSION   = '1.0';
+$VERSION   = '1.01';
 @EXPORT    = qw( expand_filename );
 @EXPORT_OK = qw( expand_filename  home_of );
 
@@ -38,9 +38,9 @@ File::Path::Expand - expand filenames
 
 =head1 DESCRIPTION
 
-File::Expand expands user directories in filenames.  For the simple
-case it's no more complex than s{^~/}{$HOME/}, but for other cases it
-consults C<getpwent> and does the right thing.
+File::Path::Expand expands user directories in filenames.  For the
+simple case it's no more complex than s{^~/}{$HOME/}, but for other
+cases it consults C<getpwent> and does the right thing.
 
 =head1 AUTHOR
 
