@@ -1,0 +1,15 @@
+--- #YAML:1.0
+name: File-Path-Expand
+version: 1.0
+license: perl
+distribution_type: module
+requires:
+  Test::More: 0
+recommends: {}
+build_requires: {}
+conflicts: {}
+provides:
+  File::Path::Expand:
+    file: lib/File/Path/Expand.pm
+    version: 1.0
+generated_by: Module::Build version 0.18
